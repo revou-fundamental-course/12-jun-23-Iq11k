@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f1f6f9;
+}
+
+header {
+  background-color: #ff6969;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11vh;
+  margin-bottom: 10px;
+}
+
+/* default Section */
+.inputSection,
+.resultSection,
+.howToSolveSection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+#inputField,
+#resultField {
+  outline: none;
+  height: fit-content;
+  font-size: 20px;
+}
+
+/* Input Button */
+.inputButtonSection {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+button {
+  background-color: #ffd3b0;
+  color: #717171;
+  font-weight: 700;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #ffd4b0b5;
+}
+
+button:active {
+  background-color: #ffd4b07d;
+  transform: translateY(1px);
+}
+
+/* Result Calculation */
+textarea {
+  height: fit-content;
+  font-size: 15px;
+}
+
+/* How to Solve Section */
+.howToSolveSection {
+  margin-top: 20px;
+}
+#celtofah,
+#fahtocelc {
+  display: none;
+}
