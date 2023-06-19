@@ -77,3 +77,16 @@ textarea {
 #fahtocelc {
   display: none;
 }
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  background-color: #3a7ca5;
+  color: #f1f6f9;
+  font-size: 12px;
+  padding: 10px 0;
+}
