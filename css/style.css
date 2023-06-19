@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #ff6969;
+  background-color: #3a7ca5;
   color: #ffffff;
   text-align: center;
   display: flex;
@@ -46,8 +46,8 @@ header {
 }
 
 button {
-  background-color: #ffd3b0;
-  color: #717171;
+  background-color: #4da2bb;
+  color: #ffffff;
   font-weight: 700;
   padding: 5px 20px;
   border: none;
@@ -55,11 +55,11 @@ button {
 }
 
 button:hover {
-  background-color: #ffd4b0b5;
+  background-color: #6ba2b3;
 }
 
 button:active {
-  background-color: #ffd4b07d;
+  background-color: #81c3d7;
   transform: translateY(1px);
 }
 
