@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Temperature Conversion by Moch Rizqi</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Temperature Conversion</h1>
+      <h1>Temperature Conversion</h1>
     </header>
-
+    <section class="pengantar">
+      <p>~Masukkan suhu yang ingin anda konversi~</p>
+    </section>
     <section class="inputSection">
-        <label for="inputField" id="input">Celcius (°C) :</label>
-        <input type="number" id="inputField">
-        <div class="inputButtonSection">
-            <button id="convert" onclick="convert()">Convert</button>
-            <button id="reset" onclick="reset()">Reset</button>
-            <button id="reverse" onclick="reverse()">Reverse</button>
-        </div>
+      <label for="inputField" id="input">Celcius (°C) :</label>
+      <input type="text" id="inputField" />
+      <div class="inputButtonSection">
+        <button id="convert" onclick="convert()">Convert</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="reverse" onclick="reverse()">Reverse</button>
+      </div>
     </section>
 
     <section class="resultSection">
-        <label for="resultField" id="result">Fahrenheit (°F) :</label>
-        <input type="number" id="resultField">
+      <label for="resultField" id="result">Fahrenheit (°F) :</label>
+      <input type="text" id="resultField" />
 
-        <label for="calculation">Calculation:</label>
-        <textarea id="calculation"></textarea>
+      <label for="calculation">Calculation:</label>
+      <textarea id="calculation"></textarea>
     </section>
 
     <section class="howToSolveSection">
-        <div id="celtofah">
-            <h4>Cara Konversi Suhu dari Celcius ke Fahrenheit</h4>
-            <p>Untuk mengkonversi suhu dari °C ke °F kita dapat menggunakan rumus :</p>
-            <p>°F = (°C × 9/5) + 32</p>
-        </div>
-        <div id="fahtocelc">
-            <h4>Cara Konversi Suhu dari Fahrenheit ke Celcius</h4>
-            <p>Untuk mengkonversi suhu dari °F ke °C kita dapat menggunakan rumus :</p>
-            <p>°C = 5/9 × (°F - 32)</p>
-        </div>
+      <div id="celtofah">
+        <h4>Cara Konversi Suhu dari Celcius ke Fahrenheit</h4>
+        <p>
+          Untuk mengkonversi suhu dari °C ke °F kita dapat menggunakan rumus :
+        </p>
+        <p>°F = (°C × 9/5) + 32</p>
+      </div>
+      <div id="fahtocelc">
+        <h4>Cara Konversi Suhu dari Fahrenheit ke Celcius</h4>
+        <p>
+          Untuk mengkonversi suhu dari °F ke °C kita dapat menggunakan rumus :
+        </p>
+        <p>°C = 5/9 × (°F - 32)</p>
+      </div>
     </section>
 
-    <footer>
-        Copyright Moch. Rizqi Ardi
-    </footer>
+    <footer>Copyright Moch. Rizqi Ardi Saputra Bambang</footer>
 
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
